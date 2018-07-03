@@ -1,6 +1,6 @@
 {
   "name": "a9cdn-replacer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "replace CDN resources in any text file",
   "homepage": "https://github.com/moilioncircle/a9cdn-replacer.git",
   "license": "MIT",
