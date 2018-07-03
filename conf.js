@@ -46,7 +46,7 @@ module.exports = {
     // `inline` - rename the cdn-file or modify the txt-file
     //  $filepath - copy the deploy-file to $filepath
     outFile: { // how to deal with the output files
-        cndType: "dryrun", // `dryrun|inline|/tmp/a9cdn/cdn`
+        cdnType: "dryrun", // `dryrun|inline|/tmp/a9cdn/cdn`
         txtType: "inline", // `dryrun|inline|/tmp/a9cdn/txt`
     }
 }
