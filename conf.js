@@ -11,7 +11,7 @@ module.exports = {
 
     cdnFile: [ // the assets will upload to CDN
         { // file-conf-entry
-            recurse: false, // recursive to children // override `$cnfBase.recurse`
+            //recurse: false, // recursive to children // override `$cnfBase.recurse`
             webRoot: "./test", // override `$cnfBase.webRoot` for this entry.
             uriPath: "../", // the relpath to $webRoot. `''`,`null`,`'.'`,`'./'`,`'/'` are same.
             include: [ // include files (not directory)
