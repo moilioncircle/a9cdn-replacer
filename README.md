@@ -3,6 +3,8 @@
 a simple cli for asset(`cdnFile`) and any text(`txtFile`),
 hash cdn file and replace them in any text file.
 
+## install
+
 ``` bash
 # install global as system command
 sudo npm -g install a9cdn-replacer
@@ -31,3 +33,10 @@ when `outFile.cdnType` is
  - `dryrun` only log the file and cdn-file uri.
  - `inline` replace the uri.
  - `any path` copy the replaced txt file to this path. 
+
+## example
+
+``` bash
+# hash the cdn and replace the txt
+a9cdn-replacer mend ../cdn.js
+```

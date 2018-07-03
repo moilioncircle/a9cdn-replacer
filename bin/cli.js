@@ -14,18 +14,14 @@ prg.command('mend <cnf>')
   .description('hash cdn-files and mend txt-files.')
   .action(cnf => exec('mend', cnf))
 
-prg.command('conf')
-  .description('print sample conf.js')
-  .action(() => exec('conf', null))
-
 prg.command('*')
-  .description('show this help')
-  .action(() => exec('conf', null))
+  .description('print sample conf.js')
+  .action(() => exec('conf'))
 
 prg.parse(process.argv)
 
 if (process.argv.length < 3) {
-  exec('help', null)
+  exec('help')
 }
 
 function exec(cmd, cnf) {
